@@ -1,0 +1,9 @@
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BOL\bin\Debug\BOL.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BOL\bin\Debug\BOL.pdb
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BOL\bin\Debug\Google.Protobuf.xml
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BOL\bin\Debug\MySql.Data.xml
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BOL\obj\Debug\BOL.csproj.CoreCompileInputs.cache
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BOL\obj\Debug\BOL.csproj.CopyComplete
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BOL\obj\Debug\BOL.dll
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BOL\obj\Debug\BOL.pdb
+S:\chaya wakshtok\manage task finally project\webAPI-tasks\BOL\obj\Debug\BOL.csprojAssemblyReference.cache
