@@ -12,12 +12,12 @@ namespace _01_BOL
         [Required]
         public int UserId { get; set; }
         [Required(ErrorMessage = "name is required")]
-        [MinLength(2 ,ErrorMessage ="name must be more than 2 chars"),MaxLength(15,ErrorMessage ="name must be less than 15 chars")]     
+        [MinLength(2, ErrorMessage = "name must be more than 2 chars"), MaxLength(15, ErrorMessage = "name must be less than 15 chars")]
         public string UserName { get; set; }
 
         [Required(ErrorMessage = "password is required")]
         [UniquePassword]
-        [ValidPassword]
+        [MinLength(64), MaxLength(64)]
         public string Password { get; set; }
 
         [Required(ErrorMessage = "email is required")]
