@@ -7,3 +7,12 @@ S:\chaya wakshtok\manage task finally project\webAPI-tasks\BOL\obj\Debug\BOL.csp
 S:\chaya wakshtok\manage task finally project\webAPI-tasks\BOL\obj\Debug\BOL.dll
 S:\chaya wakshtok\manage task finally project\webAPI-tasks\BOL\obj\Debug\BOL.pdb
 S:\chaya wakshtok\manage task finally project\webAPI-tasks\BOL\obj\Debug\BOL.csprojAssemblyReference.cache
+S:\חני ולדר\manageTasks\webAPI-tasks\BOL\bin\Debug\BOL.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\BOL\bin\Debug\BOL.pdb
+S:\חני ולדר\manageTasks\webAPI-tasks\BOL\bin\Debug\Google.Protobuf.xml
+S:\חני ולדר\manageTasks\webAPI-tasks\BOL\bin\Debug\MySql.Data.xml
+S:\חני ולדר\manageTasks\webAPI-tasks\BOL\obj\Debug\BOL.csprojAssemblyReference.cache
+S:\חני ולדר\manageTasks\webAPI-tasks\BOL\obj\Debug\BOL.csproj.CoreCompileInputs.cache
+S:\חני ולדר\manageTasks\webAPI-tasks\BOL\obj\Debug\BOL.csproj.CopyComplete
+S:\חני ולדר\manageTasks\webAPI-tasks\BOL\obj\Debug\BOL.dll
+S:\חני ולדר\manageTasks\webAPI-tasks\BOL\obj\Debug\BOL.pdb

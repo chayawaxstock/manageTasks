@@ -9,6 +9,7 @@ namespace BOL.Models
 {
     class HourForDepartment
     {
+        //TODO:VALIDATION SUM HOURS LESS
         public Project project { get; set; }
         public int ProjectId { get; set; }
         public DepartmentUser DepartmentUser { get; set; }

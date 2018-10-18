@@ -21,8 +21,13 @@ namespace _02_BLL
                 {
                     users.Add(new User
                     {
-                       UserName = reader.GetString(0),
-                       Password=reader.GetString(1)
+                        UserId = reader.GetInt32(0),
+                        UserName = reader.GetString(1),
+                        Password = reader.GetString(2),
+                        Email = reader.GetString(3),
+                        UserComputer = reader.GetString(4),
+                        NumHoursWork = reader.GetDecimal(5)
+
                     });
                 }
                 return users;
@@ -45,14 +50,14 @@ namespace _02_BLL
 
         public static bool UpdateUser(User user)
         {
-            string query = $"UPDATE managetasks.user SET UserName='{user.UserName}'  WHERE Password={user.Password} ";
+            string query = $"UPDATE managetasks.user SET UserName='{user.UserName}',Password='{user.Password}',Email='{user.Email}',UserComputer='{user.UserComputer}',NumHoursWork={user.NumHoursWork}  WHERE UserId={user.UserId} ";
             return DBAccess.RunNonQuery(query) == 1;
         }
 
         public static bool AddUser(User user)
         {
             //TODO:איזה דפרטמנט
-            string query = $"INSERT INTO `managetasks`.`user`(`userName`,`userComputer`,`password`,`email`) VALUES('{user.UserName}','{user.UserComputer}','{user.Password}',{user.Email}); ";
+            string query = $"INSERT INTO `managetasks`.`user`(`userName`,`userComputer`,`password`,`email`,`numHoursWork`) VALUES('{user.UserName}','{user.UserComputer}','{user.Password}',{user.Email},{user.NumHoursWork}); ";
             return DBAccess.RunNonQuery(query) == 1;
         }
     }

@@ -27,7 +27,7 @@ namespace _01_BOL
 
         public string UserComputer { get; set; }
         [DefaultValue(1)]
-        public int NumHoursWork { get; set; }
+        public decimal NumHoursWork { get; set; }
         public User manager { get; set; }
         public DepartmentUser Department { get; set; }
 
