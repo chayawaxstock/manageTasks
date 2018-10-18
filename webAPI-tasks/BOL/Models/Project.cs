@@ -1,5 +1,6 @@
 ﻿
 using _01_BOL;
+using BOL.Validations;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -24,16 +25,17 @@ namespace BOL
         public string CustomerName { get; set; }
 
         [Required]
-        [Range(2,10000,ErrorMessage = "numHourForProject not between 2-10000")]
+        [Range(2,int.MaxValue,ErrorMessage = "numHourForProject not grate than 2")]
         public decimal numHourForProject { get; set; }
 
 
         [Required(ErrorMessage = "DateBegin is required")]
-       // []
+        [ValidDateBeginAtribute]
         public DateTime DateBegin { get; set; }
 
 
-        [Required(ErrorMessage = "Name is required")]
+        [Required(ErrorMessage = "DateEnd is required")]
+        [ValidDateEndAtribute]
         public DateTime DateEnd { get; set; }
 
         public bool IsFinish { get; set; } = false;
